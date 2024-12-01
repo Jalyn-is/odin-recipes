@@ -1,27 +1,13 @@
-.text{
+*{
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    font-family: monospace, serif, sans-serif;
+    text-align: justify;
 }
-h1{
-    font-size: 44px;
-    font-weight: bold;
-}
-img{
-    width: 550px;
-    height: auto;
-}
-h2{
-    font-size: 34px;
-    font-weight: bold;
-}
-.page-link{
-    text-align: left;
-    color: rgb(92, 228, 50);
-    font-weight: bold;
-    font-size: 16px;
-}
-a:hover{
-    color: aquamarine;
-    text-decoration: none;
+
+.container{
+    background-color:  beige ;
+    width: 70%;
+    max-width: 800px;
+    margin-left: auto;
+    margin: 0 auto;
 }
