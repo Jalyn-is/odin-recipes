@@ -3,11 +3,18 @@
     font-family: monospace, serif, sans-serif;
     text-align: justify;
 }
-
+/*will add flex/flexbox later.*/
 .container{
     background-color:  beige ;
     width: 70%;
     max-width: 800px;
     margin-left: auto;
     margin: 0 auto;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+    color: rgb(108, 200, 243);
 }
