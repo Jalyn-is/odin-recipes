@@ -43,7 +43,9 @@ p{
 /*Might use flexbox to code image better*/
 
 .img{
+    width: 450px;
     height: auto;
-    width: 6000px
-    ;
+    margin: 5px;
+    padding: 5px;
+
 }
