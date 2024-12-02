@@ -47,5 +47,13 @@ p{
     height: auto;
     margin: 5px;
     padding: 5px;
+}
+
+a:hover{
+    color: rgb(32, 121, 148);
+}
+
+a{
+    text-decoration: none;
 
 }
