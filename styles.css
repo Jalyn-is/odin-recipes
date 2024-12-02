@@ -1,4 +1,4 @@
-/*MIght change font to something better*/
+/*Might change font to something better*/
 *{
     font-size: 16.5px;
     font-family: monospace, serif, sans-serif;
@@ -9,7 +9,6 @@
     background-color:  beige ;
     width: 70%;
     max-width: 800px;
-    margin-left: auto;
     margin: 0 auto;
 }
 
@@ -41,6 +40,10 @@ p{
     padding: 10px;
 }
 
+/*Might use flexbox to code image better*/
+
 .img{
-    
+    height: auto;
+    width: 6000px
+    ;
 }
