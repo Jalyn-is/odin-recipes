@@ -2,7 +2,7 @@
 *{
     font-size: 16.5px;
     font-family: monospace, serif, sans-serif;
-    text-align: justify;
+    text-align: left;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 .container{
     /* This makes the website responsive but it looks kinda wonky, will need to add more flex to it and remeber margin 0 auto if it fails*/
     width: 70%;
-    
+    max-width: 800px;
 /*Max-wdith 800px just in case*/
 }
 
