@@ -4,12 +4,18 @@
     font-family: monospace, serif, sans-serif;
     text-align: justify;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
 /*will add flex/flexbox later.*/
 .container{
-    background-color:  beige ;
+    /* This makes the website responsive but it looks kinda wonky, will need to add more flex to it and remeber margin 0 auto if it fails*/
     width: 70%;
-    max-width: 800px;
-    margin: 0 auto;
+    
+/*Max-wdith 800px just in case*/
 }
 
 h1,
@@ -18,6 +24,7 @@ h2{
     margin: 10px auto;
     border: 5px;
     padding: 10px;
+    display: flex;
 }
 
 h1{
@@ -40,7 +47,7 @@ p{
     padding: 10px;
 }
 
-/*Might use flexbox to code image better*/
+/*Might use flexbox to code image better, images should be centered*/
 
 .img{
     width: 450px;
@@ -49,11 +56,12 @@ p{
     padding: 5px;
 }
 
+/*Currently using psuedo-code hover for nice effects*/
+
 a:hover{
     color: rgb(32, 121, 148);
 }
 
 a{
     text-decoration: none;
-
 }
